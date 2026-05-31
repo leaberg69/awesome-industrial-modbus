@@ -42,12 +42,16 @@ This list focuses on resources that are **actively maintained, openly licensed, 
 - [pymodbus](https://github.com/pymodbus-dev/pymodbus) - The de-facto Modbus implementation for Python. Supports RTU/TCP/ASCII over serial and network transports. Asyncio support. (★ 2400+)
 - [umodbus](https://github.com/AdvancedClimateSystems/umodbus) - Pure Python implementation of Modbus TCP, UDP and RTU. Server and client.
 - [minimalmodbus](https://github.com/pyhys/minimalmodbus) - Minimal Python implementation focused on serial RTU/ASCII.
+- [pyModbusTCP](https://github.com/sourceperl/pyModbusTCP) - Simple Modbus/TCP client and server library for Python.
+- [async-pymodbus](https://github.com/jjrh/async-pymodbus) - Async pymodbus wrapper for high-performance polling.
 
 ### C/C++
 
 - [libmodbus](https://github.com/stephane/libmodbus) - The classic Modbus library for Linux/Mac/FreeBSD/QNX/Windows. (★ 2400+)
 - [nanoMODBUS](https://github.com/debevv/nanoMODBUS) - Compact MODBUS RTU/TCP C library for embedded/microcontrollers.
 - [FreeMODBUS](https://www.embedded-solutions.at/en/freemodbus/) - Free implementation of the Modbus protocol primarily designed for embedded systems.
+- [Mbed Modbus](https://github.com/ARMmbed/mbed-modbus) - Modbus library for ARM mbed OS embedded systems.
+- [esp-modbus](https://github.com/espressif/esp-modbus) - ESP-IDF Modbus library for ESP32 microcontrollers.
 
 ### Java
 
@@ -76,12 +80,17 @@ Critical for development and CI — let you test Modbus master code without phys
 - [diagslave](https://www.modbusdriver.com/diagslave.html) - Commercial Modbus slave simulator. Free for non-commercial use.
 - [ModbusPal](https://sourceforge.net/projects/modbuspal/) - Java-based Modbus slave simulator with GUI.
 - [PeakHMI Modbus Slave Simulator](https://www.peakhmi.com/products.html) - Windows-based Modbus slave simulator.
+- [MOD_RSsim](https://www.plcsimulator.org/) - Free Modbus RTU/TCP/ASCII slave simulator for Windows.
+- [pymbsim](https://github.com/AdvancedClimateSystems/pymbsim) - Python-based Modbus slave simulator.
+- [Simply Modbus](https://www.simplymodbus.ca/manual.htm) - Commercial Windows Modbus simulator with manual documentation.
 
 ## CLI Tools
 
 - **[aem-modbus-cli](https://github.com/leaberg69/aem-modbus-cli)** - Open-source Python CLI for Modbus RTU/TCP diagnostics: `scan` (sweep IDs 1-247), `baudrate` (auto-detect), `read` (with retry diagnostics), `bench` (RTT and error rate measurement). MIT.
 - [mbtget](https://github.com/sourceperl/mbtget) - Simple Modbus/TCP client written in Perl.
 - [ctmodbus](https://github.com/ControlThings-io/ctmodbus) - Multi-purpose Modbus protocol interaction tool.
+- [mbusd](https://github.com/3cky/mbusd) - Modbus TCP to Modbus RTU gateway daemon (open-source).
+- [modpoll](https://www.modbusdriver.com/modpoll.html) - Command-line Modbus master tool (commercial, free for non-commercial).
 
 ## GUI Tools
 
@@ -112,6 +121,9 @@ Critical for development and CI — let you test Modbus master code without phys
 - [AVEVA InTouch HMI](https://www.aveva.com/en/products/intouch-hmi/) - Industry-standard HMI with Modbus support.
 - [Node-RED modbus nodes](https://flows.nodered.org/search?term=modbus) - Node-RED nodes for Modbus RTU/TCP integration.
 - [Telegraf Modbus plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/modbus) - InfluxDB Telegraf input plugin for Modbus.
+- [Home Assistant Modbus integration](https://www.home-assistant.io/integrations/modbus/) - Modbus support in Home Assistant for residential/commercial IoT.
+- [Zabbix Modbus monitoring](https://www.zabbix.com/integrations/modbus) - Zabbix monitoring agent for Modbus devices.
+- [openHAB Modbus binding](https://www.openhab.org/addons/bindings/modbus/) - Modbus support in openHAB home automation.
 
 ## Educational Resources
 
