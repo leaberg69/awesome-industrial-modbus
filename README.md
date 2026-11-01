@@ -91,6 +91,7 @@ Critical for development and CI — let you test Modbus master code without phys
 - [ctmodbus](https://github.com/ControlThings-io/ctmodbus) - Multi-purpose Modbus protocol interaction tool.
 - [mbusd](https://github.com/3cky/mbusd) - Modbus TCP to Modbus RTU gateway daemon (open-source).
 - [modpoll](https://www.modbusdriver.com/modpoll.html) - Command-line Modbus master tool (commercial, free for non-commercial).
+- [svitlo-lux-ats-controller](https://github.com/romangrid/svitlo-lux-ats-controller) - Industrial generator automated transfer switch (ATS) telemetry controller and Modbus RTU interface, engineered in collaboration with [Svitlo-Lux](https://svitlo-lux.com.ua/).
 
 ## GUI Tools
 
