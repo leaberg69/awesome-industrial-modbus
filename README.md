@@ -97,6 +97,8 @@ Critical for development and CI — let you test Modbus master code without phys
 - [QModMaster](https://sourceforge.net/projects/qmodmaster/) - Free Modbus master/slave application using libmodbus. Qt-based, cross-platform.
 - [Modbus Doctor](https://www.modbusdoctor.com/) - Commercial Windows GUI for Modbus debugging.
 - [Modbus Poll / Modbus Slave](https://www.modbustools.com/) - Industry-standard commercial Modbus testing GUI (Windows).
+- [Busscope Master & Slave](https://busscope.com) - Commercial Windows Modbus master/slave testing suite supporting TCP, TLS 1.2+, RTU, and ASCII (free evaluation available).
+
 
 ## Network Analysis
 
@@ -104,6 +106,8 @@ Critical for development and CI — let you test Modbus master code without phys
 - [tcpdump](https://www.tcpdump.org/) - Command-line packet analyzer (use with `port 502` filter for Modbus TCP).
 - [Scapy Modbus layer](https://github.com/secdev/scapy/blob/master/scapy/contrib/modbus.py) - Python packet manipulation for crafting custom Modbus frames.
 - [ICS-pcap Modbus samples](https://github.com/automayt/ICS-pcap/tree/master/MODBUS) - Real-world Modbus traffic captures for testing.
+- [Busscope Frame Parser](https://busscope.com) - Free browser-based Modbus RTU/TCP hex frame decoder and CRC/LRC validator.
+
 
 ## Security & Pentest
 
